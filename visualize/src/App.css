@@ -1,0 +1,83 @@
+.container{
+    background-image: url("https://t3.ftcdn.net/jpg/01/55/43/08/360_F_155430860_Hlx6dRGMXy3d6G29eWXOY3xih3k1HswO.jpg");
+    background-size:cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    overflow:hidden;
+    left:0px;
+    z-index:1000;
+    background-color:#e0edf3;
+    color:#555;
+  }
+
+.App {
+  margin-top:2%;
+}
+
+.whole{
+  height: 750px;
+  width: 700px;
+  float: none;
+  margin: 0 auto;
+  background-color:white;
+  border-radius: 40px;
+  padding:10px 10px 10px 10px;
+  box-shadow: 13px 13px 20px #b0b3b6, -13px -13px 20px rgb(207, 202, 202);
+}
+
+
+p{
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+}
+
+h3{
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+}
+
+.map {
+  height: 500px;
+  width: 600px;
+  border-radius: 25px;
+}
+
+
+.green {
+  height: 50px;
+  width: 50px;
+  
+}
+
+.red {
+  height: 50px;
+  width: 50px;
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+
+
+.table, th, td{
+  padding: 8px;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
